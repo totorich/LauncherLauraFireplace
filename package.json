@@ -1,13 +1,13 @@
 {
   "name": "LauraFireplacelauncher",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "productName": "LauraFireplace Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Hainy (https://github.com/totorich)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/totorich/LauncherLauraFireplace",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": ""
   },
   "private": true,
   "main": "index.js",
