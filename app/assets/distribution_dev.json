@@ -1,0 +1,816 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "201696368660578304",
+    "smallImageText": "ElloGuard",
+    "smallImageKey": "seal-circle"
+  },
+  "java": {
+    "oracle": "https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+  },
+  "rss": "https://westeroscraft.com/articles/index.rss",
+  "servers": [
+    {
+      "id": "Nagaserya",
+      "name": "Nagaserya Production Server",
+      "description": "Nagaserya server Minecraft.",
+      "icon": "http://boulard.azurewebsites.net/Launcher/files/images/favicon.png",
+      "version": "3.9.4",
+      "address": "149.202.122.133:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "Production",
+        "largeImageText": "Nagaserya Production Server",
+        "largeImageKey": "server-prod"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4884700,
+            "MD5": "90734a5a713e24902d24c45c15caa42c",
+            "url": "https://boulard.azurewebsites.net/Launcher/forge-1.12.2-14.23.5.2847-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12",
+              "name": "Mojang (LaunchWrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.2",
+              "name": "Mojang (ASM)",
+              "type": "Library",
+              "artifact": {
+                "size": 247787,
+                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/asm-all-5.2.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13",
+              "name": "Mojang (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 1474672,
+                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 3076920,
+                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+              "name": "Minecraft Forge (scala-actors-migration)",
+              "type": "Library",
+              "artifact": {
+                "size": 21324,
+                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+              "name": "Minecraft Forge (scala-continuations-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 7956,
+                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+              "name": "Minecraft Forge (scala-continuations-plugin)",
+              "type": "Library",
+              "artifact": {
+                "size": 46140,
+                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-parser-combinators)",
+              "type": "Library",
+              "artifact": {
+                "size": 85568,
+                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 1070312,
+                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+              "name": "Minecraft Forge (scala-swing)",
+              "type": "Library",
+              "artifact": {
+                "size": 736795,
+                "MD5": "1d360289e697022a3f57abaad344b28f",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+              "name": "Minecraft Forge (scala-xml)",
+              "type": "Library",
+              "artifact": {
+                "size": 217812,
+                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+              "name": "Minecraft Forge (akka-actor)",
+              "type": "Library",
+              "artifact": {
+                "size": 746612,
+                "MD5": "25cb22c3078e9fb3f7a861c912924862",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+              "name": "Minecraft Forge (typesafe-config)",
+              "type": "Library",
+              "artifact": {
+                "size": 56636,
+                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/config-1.2.1.jar.pack.xz"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1",
+              "name": "Mojang (LZMA)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3",
+              "name": "Trove4J",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2",
+              "name": "Vecmath",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+              "name": "Jopt-simple",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3",
+              "name": "maven-artifact",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:MercuriusUpdater:1.12.2",
+              "name": "MercuriusUpdater",
+              "type": "Library",
+              "artifact": {
+                "size": 15098,
+                "MD5": "6eb9e61097bee3103a2fdc42746b76a4",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
+              }
+            },
+            {
+              "id": "Advanced-Fishing-1.12.2-1.3.3.jar",
+              "name": "Advanced-Fishing-1.12.2-1.3.3.jar",
+              "type": "file",
+              "artifact": {
+                "size": 277112,
+                "path": "mods/Advanced-Fishing-1.12.2-1.3.3.jar",
+                "MD5": "45d6f18d0ac8075b0cb65d2bde83ebdd",
+                "url": "https://boulard.azurewebsites.net/mods/Advanced-Fishing-1.12.2-1.3.3.jar"
+              }
+            },
+            {
+              "id": "Aquaculture-1.12.2-1.6.8.jar",
+              "name": "Aquaculture-1.12.2-1.6.8.jar",
+              "type": "file",
+              "artifact": {
+                "size": 186686,
+                "path": "mods/Aquaculture-1.12.2-1.6.8.jar",
+                "MD5": "fee51d0051f8f3c533cad6417024c9f5",
+                "url": "https://boulard.azurewebsites.net/mods/Aquaculture-1.12.2-1.6.8.jar"
+              }
+            },
+            {
+              "id": "Baubles-1.12-1.5.2.jar",
+              "name": "Baubles-1.12-1.5.2.jar",
+              "type": "file",
+              "artifact": {
+                "size": 108450,
+                "path": "mods/Baubles-1.12-1.5.2.jar",
+                "MD5": "944dec4ef3fbfd4d498d94a7047af201",
+                "url": "https://boulard.azurewebsites.net/mods/Baubles-1.12-1.5.2.jar"
+              }
+            },
+            {
+              "id": "BetterAnimationsCollection2-v1.0.2-1.11.2.jar",
+              "name": "BetterAnimationsCollection2-v1.0.2-1.11.2.jar",
+              "type": "file",
+              "artifact": {
+                "size": 140003,
+                "path": "mods/BetterAnimationsCollection2-v1.0.2-1.11.2.jar",
+                "MD5": "22f5f0c9ed0d5c990421fefafa565dee",
+                "url": "https://boulard.azurewebsites.net/mods/BetterAnimationsCollection2-v1.0.2-1.12.2.jar"
+              }
+            },
+            {
+              "id": "Better-Railroads-1.0.0.jar",
+              "name": "Better-Railroads-1.0.0.jar",
+              "type": "file",
+              "artifact": {
+                "size": 86935,
+                "path": "mods/Better-Railroads-1.0.0.jar",
+                "MD5": "b7970894934ff2f50d1d52f9906f6e52",
+                "url": "https://boulard.azurewebsites.net/mods/Better-Railroads-1.0.0.jar"
+              }
+            },
+            {
+              "id": "BiblioCraft[v2.4.5][MC1.12.2].jar",
+              "name": "BiblioCraft[v2.4.5][MC1.12.2].jar",
+              "type": "file",
+              "artifact": {
+                "size": 5122856,
+                "path": "mods/BiblioCraft[v2.4.5][MC1.12.2].jar",
+                "MD5": "5b9f1a1543a1fdf687fe4761e3d63ed4",
+                "url": "https://boulard.azurewebsites.net/mods/BiblioCraft[v2.4.5][MC1.12.2].jar"
+              }
+            },
+            {
+              "id": "BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar",
+              "name": "BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar",
+              "type": "file",
+              "artifact": {
+                "size": 4696621,
+                "path": "mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar",
+                "MD5": "61fcc4ffff205ca261e61d6772debc4d",
+                "url": "https://boulard.azurewebsites.net/mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar"
+              }
+            },
+            {
+              "id": "Botania r1.10-362.jar",
+              "name": "Botania r1.10-362.jar",
+              "type": "file",
+              "artifact": {
+                "size": 13811689,
+                "path": "mods/Botania r1.10-362.jar",
+                "MD5": "9d6512335fe747ad489203026969abbe",
+                "url": "https://boulard.azurewebsites.net/mods/Botania%20r1.10-362.jar"
+              }
+            },
+            {
+              "id": "Chameleon-1.12-4.1.3.jar",
+              "name": "Chameleon-1.12-4.1.3.jar",
+              "type": "file",
+              "artifact": {
+                "size": 96859,
+                "path": "mods/Chameleon-1.12-4.1.3.jar",
+                "MD5": "e42efa8f4fd42d2918128a826b740e98",
+                "url": "https://boulard.azurewebsites.net/mods/Chameleon-1.12-4.1.3.jar"
+              }
+            },
+            {
+              "id": "Chisel-MC1.12.2-1.0.1.44.jar",
+              "name": "Chisel-MC1.12.2-1.0.1.44.jar",
+              "type": "file",
+              "artifact": {
+                "size": 4754821,
+                "path": "mods/Chisel-MC1.12.2-1.0.1.44.jar",
+                "MD5": "fd1dd13667812ea520446e6220510d45",
+                "url": "https://boulard.azurewebsites.net/mods/Chisel-MC1.12.2-1.0.1.44.jar"
+              }
+            },
+            {
+              "id": "coffeework-1.2.9.jar",
+              "name": "coffeework-1.2.9.jar",
+              "type": "file",
+              "artifact": {
+                "size": 5220667,
+                "path": "mods/coffeework-1.2.9.jar",
+                "MD5": "17baf22a3678b41dc16c6e2e410745b3",
+                "url": "https://boulard.azurewebsites.net/mods/coffeework-1.2.9.jar"
+              }
+            },
+            {
+              "id": "CTM-MC1.12.2-1.0.0.29.jar",
+              "name": "CTM-MC1.12.2-1.0.0.29.jar",
+              "type": "file",
+              "artifact": {
+                "size": 197149,
+                "path": "mods/CTM-MC1.12.2-1.0.0.29.jar",
+                "MD5": "fb551e41aa6ae3ae76cc247e810e2a80",
+                "url": "https://boulard.azurewebsites.net/mods/CTM-MC1.12.2-1.0.0.29.jar"
+              }
+            },
+            {
+              "id": "Dungeons2-mc1.12.2-f14.23.5.2768-v1.7.1.jar",
+              "name": "Dungeons2-mc1.12.2-f14.23.5.2768-v1.7.1.jar",
+              "type": "file",
+              "artifact": {
+                "size": 992862,
+                "path": "mods/Dungeons2-mc1.12.2-f14.23.5.2768-v1.7.1.jar",
+                "MD5": "2bf23f7467d9a682b6002b7ee7800a49",
+                "url": "https://boulard.azurewebsites.net/mods/Dungeons2-mc1.12.2-f14.23.5.2768-v1.7.1.jar"
+              }
+            },
+            {
+              "id": "EnderIO-1.12.2-5.1.52.jar",
+              "name": "EnderIO-1.12.2-5.1.52.jar",
+              "type": "file",
+              "artifact": {
+                "size": 8069669,
+                "path": "mods/EnderIO-1.12.2-5.1.52.jar",
+                "MD5": "80db6ee6c1c0db4446a68123de692ddf",
+                "url": "https://boulard.azurewebsites.net/mods/EnderIO-1.12.2-5.1.52.jar"
+              }
+            },
+            {
+              "id": "EnderCore-1.12.2-0.5.72.jar",
+              "name": "EnderCore-1.12.2-0.5.72.jar",
+              "type": "file",
+              "artifact": {
+                "size": 642655,
+                "path": "mods/EnderCore-1.12.2-0.5.72.jar",
+                "MD5": "b92619ccc41f22c5e5c280e3fae870f9",
+                "url": "https://boulard.azurewebsites.net/mods/EnderCore-1.12.2-0.5.72.jar"
+              }
+            },
+            {
+              "id": "ExtraRails-1.12-1.3.0.jar",
+              "name": "ExtraRails-1.12-1.3.0.jar",
+              "type": "file",
+              "artifact": {
+                "size": 53565,
+                "path": "mods/ExtraRails-1.12-1.3.0.jar",
+                "MD5": "c8e2e99c7559b775283f867e8e436205",
+                "url": "https://boulard.azurewebsites.net/mods/ExtraRails-1.12-1.3.0.jar"
+              }
+            },
+            {
+              "id": "foamflower-1.12.2-1.0.0.0-beta1.jar",
+              "name": "foamflower-1.12.2-1.0.0.0-beta1.jar",
+              "type": "file",
+              "artifact": {
+                "size": 67908,
+                "path": "mods/foamflower-1.12.2-1.0.0.0-beta1.jar",
+                "MD5": "6f45a5552ea322d4419660682d195765",
+                "url": "https://boulard.azurewebsites.net/mods/foamflower-1.12.2-1.0.0.0-beta1.jar"
+              }
+            },
+            {
+              "id": "GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar",
+              "name": "GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar",
+              "type": "file",
+              "artifact": {
+                "size": 324345,
+                "path": "mods/GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar",
+                "MD5": "013ed815adbc0b7ba6e6d4f51ca675ba",
+                "url": "https://boulard.azurewebsites.net/mods/GottschCore-mc1.12.2-f14.23.5.2768-v1.8.0.jar"
+              }
+            },
+            {
+              "id": "Hwyla-forge-1.10.6-B67_1.14.4.jar",
+              "name": "Hwyla-forge-1.10.6-B67_1.14.4.jar",
+              "type": "file",
+              "artifact": {
+                "size": 453778,
+                "path": "mods/Hwyla-forge-1.10.6-B67_1.14.4.jar",
+                "MD5": "d3880c8ecd37ea3f0c5983511c230c25",
+                "url": "https://boulard.azurewebsites.net/mods/Hwyla-1.8.26-B41_1.12.2.jar"
+              }
+            },
+            {
+              "id": "iChunUtil-1.12.2-7.2.2.jar",
+              "name": "iChunUtil-1.12.2-7.2.2.jar",
+              "type": "file",
+              "artifact": {
+                "size": 581963,
+                "path": "mods/iChunUtil-1.12.2-7.2.2.jar",
+                "MD5": "bf13a2044ece544b449c7dc6f8aa40af",
+                "url": "https://boulard.azurewebsites.net/mods/iChunUtil-1.12.2-7.2.2.jar"
+              }
+            },
+            {
+              "id": "IvToolkit-1.3.3-1.12.jar",
+              "name": "IvToolkit-1.3.3-1.12.jar",
+              "type": "file",
+              "artifact": {
+                "size": 455763,
+                "path": "mods/IvToolkit-1.3.3-1.12.jar",
+                "MD5": "f1a23cb6eaa682240c0ecdab65e7857f",
+                "url": "https://boulard.azurewebsites.net/mods/IvToolkit-1.3.3-1.12.jar"
+              }
+            },
+            {
+              "id": "journeymap-1.12.2-5.5.5.jar",
+              "name": "journeymap-1.12.2-5.5.5.jar",
+              "type": "file",
+              "artifact": {
+                "size": 1920463,
+                "path": "mods/journeymap-1.12.2-5.5.5.jar",
+                "MD5": "d2249af8a61002ee976fcea804e46f3b",
+                "url": "https://boulard.azurewebsites.net/mods/journeymap-1.12.2-5.5.5.jar"
+              }
+            },
+            {
+              "id": "jei_1.12.2-4.15.0.291.jar",
+              "name": "jei_1.12.2-4.15.0.291.jar",
+              "type": "file",
+              "artifact": {
+                "size": 651473,
+                "path": "mods/jei_1.12.2-4.15.0.291.jar",
+                "MD5": "cfdbfecefb1bdc5a3fbbcecbfecb0545",
+                "url": "https://boulard.azurewebsites.net/mods/jei_1.12.2-4.15.0.291.jar"
+              }
+            },
+            {
+              "id": "Mantle-1.12-1.3.3.55.jar",
+              "name": "Mantle-1.12-1.3.3.55.jar",
+              "type": "file",
+              "artifact": {
+                "size": 843486,
+                "path": "mods/Mantle-1.12-1.3.3.55.jar",
+                "MD5": "1026f5f8d3c4997831decd9023ca65a6",
+                "url": "https://boulard.azurewebsites.net/mods/Mantle-1.12-1.3.3.55.jar"
+              }
+            },
+            {
+              "id": "DrZharks MoCreatures Mod-12.0.5.jar",
+              "name": "DrZharks MoCreatures Mod-12.0.5.jar",
+              "type": "file",
+              "artifact": {
+                "size": 22440403,
+                "path": "mods/DrZharks MoCreatures Mod-12.0.5.jar",
+                "MD5": "b02c58883f3d2956017639c6000d071e",
+                "url": "https://boulard.azurewebsites.net/mods/DrZharks+MoCreatures+Mod-12.0.5.jar"
+              }
+            },
+            {
+              "id": "Morph-1.12.2-7.1.3.jar",
+              "name": "Morph-1.12.2-7.1.3.jar",
+              "type": "file",
+              "artifact": {
+                "size": 1032048,
+                "path": "mods/Morph-1.12.2-7.1.3.jar",
+                "MD5": "5de1a67a266715dbaba0f8e597257967",
+                "url": "https://boulard.azurewebsites.net/mods/Morph-1.12.2-7.1.3.jar"
+              }
+            },
+            {
+              "id": "Morpheus-1.14.4-4.2.43.jar",
+              "name": "Morpheus-1.14.4-4.2.43.jar",
+              "type": "file",
+              "artifact": {
+                "size": 21508,
+                "path": "mods/Morpheus-1.14.4-4.2.43.jar",
+                "MD5": "23262422f8a195c2bd533bde9a6bb634",
+                "url": "https://boulard.azurewebsites.net/mods/Morpheus-1.12.2-3.5.106.jar"
+              }
+            },
+            {
+              "id": "Pam's HarvestCraft 1.12.2zf.jar",
+              "name": "Pam's HarvestCraft 1.12.2zf.jar",
+              "type": "file",
+              "artifact": {
+                "size": 4907780,
+                "path": "mods/Pam's HarvestCraft 1.12.2zf.jar",
+                "MD5": "d49e4034973a38b9a92d1f9939decd70",
+                "url": "https://boulard.azurewebsites.net/mods/Pam%27s%20HarvestCraft%201.12.2zf.jar"
+              }
+            },
+            {
+              "id": "RecurrentComplex-1.4.8.2.jar",
+              "name": "RecurrentComplex-1.4.8.2.jar",
+              "type": "file",
+              "artifact": {
+                "size": 7076645,
+                "path": "mods/RecurrentComplex-1.4.8.2.jar",
+                "MD5": "821b38ba97b03eb79d64db797db67dac",
+                "url": "https://boulard.azurewebsites.net/mods/RecurrentComplex-1.4.8.2.jar"
+              }
+            },
+            {
+              "id": "RoguelikeDungeons-1.12.2-1.8.0.jar",
+              "name": "RoguelikeDungeons-1.12.2-1.8.0.jar",
+              "type": "file",
+              "artifact": {
+                "size": 701215,
+                "path": "mods/RoguelikeDungeons-1.12.2-1.8.0.jar",
+                "MD5": "e6f7604a6ec95d0af6eee2f2f3ecef85",
+                "url": "https://boulard.azurewebsites.net/mods/RoguelikeDungeons-1.12.2-1.8.0.jar"
+              }
+            },
+            {
+              "id": "Forgelin-1.8.4.jar",
+              "name": "Forgelin-1.8.4.jar",
+              "type": "file",
+              "artifact": {
+                "size": 6278399,
+                "path": "mods/Forgelin-1.8.4.jar",
+                "MD5": "2da79fce72265eab0541e565636d389d",
+                "url": "https://boulard.azurewebsites.net/mods/Forgelin-1.8.4.jar"
+              }
+            },
+            {
+              "id": "ShadowMC-1.12-3.8.0.jar",
+              "name": "ShadowMC-1.12-3.8.0.jar",
+              "type": "file",
+              "artifact": {
+                "size": 464802,
+                "path": "mods/ShadowMC-1.12-3.8.0.jar",
+                "MD5": "4649d8bc9cf94f032b4482692f4b4c2d",
+                "url": "https://boulard.azurewebsites.net/mods/ShadowMC-1.12-3.8.0.jar"
+              }
+            },
+            {
+              "id": "StorageDrawers-1.12.2-5.4.0.jar",
+              "name": "StorageDrawers-1.12.2-5.4.0.jar",
+              "type": "file",
+              "artifact": {
+                "size": 604797,
+                "path": "mods/StorageDrawers-1.12.2-5.4.0.jar",
+                "MD5": "039cbee23cf7fefe65af1114483fb57e",
+                "url": "https://boulard.azurewebsites.net/mods/StorageDrawers-1.12.2-5.4.0.jar"
+              }
+            },
+            {
+              "id": "TConstruct-1.12.2-2.12.0.157.jar",
+              "name": "TConstruct-1.12.2-2.12.0.157.jar",
+              "type": "file",
+              "artifact": {
+                "size": 4004838,
+                "path": "mods/TConstruct-1.12.2-2.12.0.157.jar",
+                "MD5": "9c8942eff75c9f2b4a13ec085c118b56",
+                "url": "https://boulard.azurewebsites.net/mods/TConstruct-1.12.2-2.12.0.157.jar"
+              }
+            },
+            {
+              "id": "TreeChopper-1.12.2-1.2.4.jar",
+              "name": "TreeChopper-1.12.2-1.2.4.jar",
+              "type": "file",
+              "artifact": {
+                "size": 124729,
+                "path": "mods/TreeChopper-1.12.2-1.2.4.jar",
+                "MD5": "56dfb51a864cb3355f0f04cde27e44d6",
+                "url": "https://boulard.azurewebsites.net/mods/TreeChopper-1.12.2-1.2.4.jar"
+              }
+            },
+            {
+              "id": "VanillaTweaks-1.12.2-1.5.5.jar",
+              "name": "VanillaTweaks-1.12.2-1.5.5.jar",
+              "type": "file",
+              "artifact": {
+                "size": 183610,
+                "path": "mods/VanillaTweaks-1.12.2-1.5.5.jar",
+                "MD5": "0ab1b9851672ee5be756c81abe174e8f",
+                "url": "https://boulard.azurewebsites.net/mods/VanillaTweaks-1.12.2-1.5.5.jar"
+              }
+            },
+            {
+              "id": "vending-1.12.2-3.0.1.2.jar",
+              "name": "vending-1.12.2-3.0.1.2.jar",
+              "type": "file",
+              "artifact": {
+                "size": 389773,
+                "path": "mods/vending-1.12.2-3.0.1.2.jar",
+                "MD5": "a89b3bbf606f97572f78daf5bb734c77",
+                "url": "https://boulard.azurewebsites.net/mods/vending-1.12.2-3.0.1.2.jar"
+              }
+            },
+            {
+              "id": "XL-Food-Mod-1.12.2-1.9.2.jar",
+              "name": "XL-Food-Mod-1.12.2-1.9.2.jar",
+              "type": "file",
+              "artifact": {
+                "size": 400208,
+                "path": "mods/XL-Food-Mod-1.12.2-1.9.2.jar",
+                "MD5": "99996774ced05042e9955d76ed8c8d19",
+                "url": "https://boulard.azurewebsites.net/mods/XL-Food-Mod-1.12.2-1.9.2.jar"
+              }
+            },
+            {
+              "id": "magicclover-1.12-0.7.8.jar",
+              "name": "magicclover-1.12-0.7.8.jar",
+              "type": "file",
+              "artifact": {
+                "size": 19692,
+                "path": "mods/magicclover-1.12-0.7.8.jar",
+                "MD5": "6eaaa901619b0be2102bb062f20b7ec3",
+                "url": "https://boulard.azurewebsites.net/mods/magicclover-1.12-0.7.8.jar"
+              }
+            },
+            {
+              "id": "CustomMobSpawner-3.11.4.jar",
+              "name": "CustomMobSpawner-3.11.4.jar",
+              "type": "file",
+              "artifact": {
+                "size": 722239,
+                "path": "mods/CustomMobSpawner-3.11.4.jar",
+                "MD5": "98108e4da7480ca9f34cd4f69b87fbce",
+                "url": "https://boulard.azurewebsites.net/mods/CustomMobSpawner-3.11.4.jar"
+              }
+            },
+            {
+              "id": "CookingForBlockheads_1.12.2-6.4.71.jar",
+              "name": "CookingForBlockheads_1.12.2-6.4.71.jar",
+              "type": "file",
+              "artifact": {
+                "size": 591592,
+                "path": "mods/CookingForBlockheads_1.12.2-6.4.71.jar",
+                "MD5": "995ffd1af0f16bdae20ab62b46fcd492",
+                "url": "https://boulard.azurewebsites.net/mods/CookingForBlockheads_1.12.2-6.4.71.jar"
+              }
+            },
+            {
+              "id": "gravestone-1.10.3.jar",
+              "name": "gravestone-1.10.3.jar",
+              "type": "file",
+              "artifact": {
+                "size": 129433,
+                "path": "mods/gravestone-1.10.3.jar",
+                "MD5": "44c8e473abb93250df0f51fc0b050041",
+                "url": "https://boulard.azurewebsites.net/mods/gravestone-1.10.3.jar"
+              }
+            },
+            {
+              "id": "extrautils2-1.12-1.9.9.jar",
+              "name": "extrautils2-1.12-1.9.9.jar",
+              "type": "file",
+              "artifact": {
+                "size": 3226408,
+                "path": "mods/extrautils2-1.12-1.9.9.jar",
+                "MD5": "1ea591619e6d5204bf077214868772ef",
+                "url": "https://boulard.azurewebsites.net/mods/extrautils2-1.12-1.9.9.jar"
+              }
+            },
+            {
+              "id": "rangedpumps-0.5.jar",
+              "name": "rangedpumps-0.5.jar",
+              "type": "file",
+              "artifact": {
+                "size": 21519,
+                "path": "mods/rangedpumps-0.5.jar",
+                "MD5": "29512482818fe06791e9af63c611e4b2",
+                "url": "https://boulard.azurewebsites.net/mods/rangedpumps-0.5.jar"
+              }
+            },
+            {
+              "id": "twilightforest-1.12.2-3.10.1013-universal.jar",
+              "name": "twilightforest-1.12.2-3.10.1013-universal.jar",
+              "type": "file",
+              "artifact": {
+                "size": 28721750,
+                "path": "mods/twilightforest-1.12.2-3.10.1013-universal.jar",
+                "MD5": "49ba19277c2bfbcf65aa93173292812b",
+                "url": "https://boulard.azurewebsites.net/mods/twilightforest-1.12.2-3.10.1013-universal.jar"
+              }
+            },
+			      {
+              "id": "OptiFine_1.12.2_HD_U_F4.jar",
+              "name": "OptiFine_1.12.2_HD_U_F4.jar",
+              "type": "file",
+              "artifact": {
+                "size": 2598165,
+                "path": "mods/OptiFine_1.12.2_HD_U_F4.jar",
+                "MD5": "ef171aa1bd8e1ac2f2c6c9843e424a45",
+                "url": "https://boulard.azurewebsites.net/mods/OptiFine_1.12.2_HD_U_F4.jar"
+              }
+            },
+			      {
+              "id": "BSL+v7.1.03.2.zip",
+              "name": "BSL+v7.1.03.2.zip",
+              "type": "file",
+              "artifact": {
+                "size": 498072,
+                "path": "shaderpacks/BSL+v7.1.03.2.zip",
+                "MD5": "c683212d310fb5ca54b9a77898ec6a3c",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/shaderpacks/BSL+v7.1.03.2.zip"
+              }
+            },
+			      {
+              "id": "CandyCraftTSR.zip",
+              "name": "CandyCraftTSR.zip",
+              "type": "file",
+              "artifact": {
+                "size": 6370269,
+                "path": "resourcepacks/CandyCraftTSR.zip",
+                "MD5": "d126b1f4a07ea14ddc5cb2c11413cbd0",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/resourcepacks/CandyCraftTSR.zip"
+              }
+            },
+			{
+              "id": "FlowsHD(1.12)64x.zip",
+              "name": "FlowsHD(1.12)64x.zip",
+              "type": "file",
+              "artifact": {
+                "size": 32086682,
+                "path": "resourcepacks/FlowsHD(1.12)64x.zip",
+                "MD5": "aa38f01c33faea416a63a530db5145cf",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/resourcepacks/FlowsHD(1.12)64x.zip"
+              }
+            },
+			{
+              "id": "C-tetra_1.12.zip",
+              "name": "C-tetra_1.12.zip",
+              "type": "file",
+              "artifact": {
+                "size": 2195235,
+                "path": "resourcepacks/C-tetra_1.12.zip",
+                "MD5": "2e147ea6843447dae4ef200a140b8594",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/resourcepacks/C-tetra_1.12.zip"
+              }
+            },
+			{
+              "id": "ACME_Pack_64x_MC112.zip",
+              "name": "ACME_Pack_64x_MC112.zip",
+              "type": "file",
+              "artifact": {
+                "size": 24417872,
+                "path": "resourcepacks/ACME_Pack_64x_MC112.zip",
+                "MD5": "1de28e6a77a3fd0044acc1368bd5531a",
+                "url": "https://boulard.azurewebsites.net/Launcher/files/resourcepacks/ACME_Pack_64x_MC112.zip"
+              }
+            },
+            {
+              "id": "servers.dat",
+              "name": "servers.dat",
+              "type": "file",
+              "artifact": {
+                "size": 7566,
+                "path": "servers.dat",
+                "MD5": "87ef706b0f1e422036cf5adb73b05902",
+                "url": "https://boulard.azurewebsites.net/Launcher/servers.dat"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
