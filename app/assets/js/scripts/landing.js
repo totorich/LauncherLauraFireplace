@@ -919,11 +919,11 @@ function showNewsAlert(){
  */
 function initNews(){
 
-    $('#newsErrorLoading').fadeOut(250, () => {
-        $('#newsErrorFailed').fadeIn(250, () => {
-            resolve()
-        })
-    })
+    // $('#newsErrorLoading').fadeOut(250, () => {
+    //     $('#newsErrorFailed').fadeIn(250, () => {
+    //         resolve()
+    //     })
+    // })
 
     // return new Promise((resolve, reject) => {
     //     setNewsLoading(true)
